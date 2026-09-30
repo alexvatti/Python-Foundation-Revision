@@ -41,3 +41,27 @@
 10. **File Handling**
     Given file content: `"Python is easy. Python is powerful. Python is popular."`
     **Question:** Find the frequency of each word, ignoring case and punctuation. **Expected:** `python:3, is:3, easy:1, powerful:1, popular:1`
+
+
+### Lambda + Map / Filter / Reduce — Nested Lists & Nested Tuples
+
+1. **Nested List**
+   Given: `[[5,12,15],[20,7,30],[8,14,25]]`
+   **Question:** Using `lambda`, `map()`, `filter()`, and `reduce()`, find the product of all even numbers greater than 10. **Expected:** `100800`
+
+2. **Nested Tuple**
+   Given: `((5,12,15),(20,7,30),(8,14,25))`
+   **Question:** Using `lambda`, `map()`, `filter()`, and `reduce()`, find the sum of all odd numbers greater than 10. **Expected:** `55`
+
+3. **Nested List**
+   Given: `[[10,15,20],[25,30,35],[40,45,50]]`
+   **Question:** Use `map()` and `lambda` to find the square of every number divisible by 5. **Expected:** `[100,225,400,625,900,1225,1600,2025,2500]`
+
+4. **Nested Tuple**
+   Given: `(("Ravi",25),("Anil",32),("Kiran",28),("Arun",35))`
+   **Question:** Use `filter()` and `lambda` to find people whose age is greater than 30. **Expected:** `(("Anil",32),("Arun",35))`
+
+5. **Nested List**
+   Given: `[[2,4,6],[3,5,7],[8,10,12]]`
+   **Question:** Flatten the nested list, filter even numbers, and use `reduce()` to calculate their product. **Expected:** `92160`
+
